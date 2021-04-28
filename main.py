@@ -137,7 +137,7 @@ class Grafh:
         c = True
         a = [[x, y]]
         k = 0
-        b = [[-1 for i in range(self.n)] for j in range(self.m)]
+        b = [[-1 for i in range(self.m)] for j in range(self.n)]
         b[x][y] = 0
         color = 1
         while c:
